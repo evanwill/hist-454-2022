@@ -2,24 +2,10 @@
 var cb_items = [];
 var config_metadata = "{{ site.metadata-csv | relative_url }}";
 
-{% if page.url == '/setup/' %}
-// do the set up stuff
-
-// add listener to file selector
-var fileSelector = document.getElementById("selectFile");
-fileSelector.addEventListener('change', (event) => {
-  // give file to papa parse and init
-  var selectedFile = event.target.files[0];
-  cb_items_init(selectedFile);
-  // reload
-  location.reload();
-});
-
-{% endif %}
 // function to process items from Sheets and store
-function cb_items_init(config_metadata) {
+function cb_items_init(metadata_url) {
   /* use papaparse to get metadata from configured CSV URL, then init page */
-  Papa.parse(config_metadata, {
+  Papa.parse(metadata_url, {
     download: true,
     header: true,
     complete: (results) => { 
@@ -29,6 +15,7 @@ function cb_items_init(config_metadata) {
     }
   });
 }
+
 // check for sessionStored items
 if (sessionStorage.getItem("cb_items_store")) {
   cb_items = JSON.parse(sessionStorage.getItem("cb_items_store"));
@@ -41,10 +28,14 @@ if (sessionStorage.getItem("cb_items_store")) {
   window.location.href = "{{ '/setup/' | absolute_url }}";
 
 }
+
 {% if site.development-refresh == true %}
 var refreshButton = document.createElement("div");
-refreshButton.classList.add("fixed-top");
-refreshButton.innerHTML = '<button class="btn btn-sm btn-secondary m-3" onclick="resetStore()" id="refreshButton">Refresh Metadata</button>';
+refreshButton.classList.add("dev-buttons");
+refreshButton.innerHTML = `<div class="btn-group-vertical">
+  <button class="btn btn-sm btn-secondary" onclick="resetStore()" id="refreshButton">Reset Metadata</button>
+  <a class="btn btn-sm btn-info" href="{{ '/setup/' | relative_url }}">Configure Metadata</a>
+  </div>`;
 document.body.appendChild(refreshButton);
 function resetStore () {
   // remove data
