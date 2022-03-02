@@ -12,6 +12,9 @@ function cb_items_init(metadata_url) {
       cb_items = results.data.filter(item => item["objectid"]);
       sessionStorage.setItem("cb_items_store", JSON.stringify(cb_items));
       pageInit(cb_items);
+    },
+    error: (err) => {
+      alert("There is an error parsing your CSV! Please check the configured URL or file. The most common issue is incorrect filename, path, or URL so that your CSV is not found.");
     }
   });
 }
