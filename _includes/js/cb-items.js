@@ -43,6 +43,7 @@ document.body.appendChild(refreshButton);
 function resetStore () {
   // remove data
   sessionStorage.removeItem("cb_items_store");
+  sessionStorage.removeItem("cb_metadata_set");
   // reload
   location.reload();
 }
