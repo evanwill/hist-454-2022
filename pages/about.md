@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
+{% include feature/jumbotron.html objectid="https://digital.lib.uidaho.edu/digital/iiif/watkins/56/full/pct:70/0/default.jpg" %}
 
 {% include feature/nav-menu.html sections="About Mining the Archive Project;The Assignment" %}
 
@@ -42,3 +42,7 @@ History 454's Mining the Archives project involves several components:
     - [Barnard-Stockbridge Photograph Collection](https://www.lib.uidaho.edu/digital/barstock/)
 - Once all objects and metadata are submitted, CDIL generates the final digital collection (this site!). 
 - Students write papers and reflections informed by their archival research.
+
+---------
+
+Image credit: [Mountain Consolidated Mine 300 ft. level East still floor [no. 1223], Carleton Watkins](https://www.lib.uidaho.edu/digital/watkins/items/watkins56.html)
