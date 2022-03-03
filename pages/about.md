@@ -10,14 +10,35 @@ credits: true
 
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
 
-## About CollectionBuilder-Sheets
+{% include feature/nav-menu.html sections="About Mining the Archive Project;The Assignment" %}
 
-This site is generated using [CollectionBuilder-Sheets](https://github.com/CollectionBuilder/collectionbuilder-sheets), an experimental template that directly parses CSVs to create small digital collection exhibits on GitHub Pages designed for teaching digital library skills.
+## About Mining the Archive Project
 
-Using CB-Sheets, it is possible to use a Google Sheets spreadsheet for your collection metadata, allowing you to see the outcome of metadata edits update immediately.
+The historical archive is a repository of memory -- shaping in profound ways what we can know about the past. 
+But historical archives are always changing. 
+Sometimes, changes come about as historical societies and university libraries acquire new collections, creating a deeper and richer landscape of materials for the historian to investigate. 
+In other instances, the very format of the archive undergoes transformation, as in the case of the rise of digital collections over the past few decades. 
 
-**This project is in progress and not fully functional!**
+This newfound world of digital archives presents powerful new opportunities for historical research -- as anyone with an internet connection now has access to a dizzying wealth of documents -- as it raises compelling questions about how we make meaning from the traces of history. 
+Understanding the digital archive is especially crucial for grasping the history of American photography, given the rapid digitization of photographs and the capacity of such photographs to become untethered from their historical contexts. 
 
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
+In this project, we will explore the nature and power of the digital archive by actually creating a digital archive. 
+We will do so by drawing upon original primary source material -- both written and photographic -- from U of I Special Collections. 
+Since one of the key strengths of our Special Collections is the history of mining, we will make that history the focal point of our work.
 
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
+*-- MATTHEW FOX-AMATO*
+
+## The Assignment
+
+History 454's Mining the Archives project involves several components:
+
+- Working with [U of I Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/), students explore and do hands on research with primary source materials related to mining. Highlighted materials include:
+    - [Bunker Hill Company records, 1887-1984](http://archiveswest.orbiscascade.org/ark:/80444/xv65328)
+    - [Stanly Easton Papers, 1900-1957](https://archiveswest.orbiscascade.org/ark:/80444/xv66353)
+    - [Barnard-Stockbridge Ledgers and Other Papers, 1888-1989](https://archiveswest.orbiscascade.org/ark:/80444/xv01033)
+- From their archival research, students select at least one photograph and one text source to digitize. Working with the [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/) (CDIL), they scan their selected items and create metadata records.
+- Student explore [U of I Library Digital Collections](https://www.lib.uidaho.edu/digital/collections.html) and select five additional items from existing digital collections, creating metadata for their curated records. Related mining collections include: 
+    - [Bunker Hill Labor Collection](https://www.lib.uidaho.edu/digital/bunkerhill/)
+    - [Barnard-Stockbridge Photograph Collection](https://www.lib.uidaho.edu/digital/barstock/)
+- Once all objects and metadata are submitted, CDIL generates the final digital collection (this site!). 
+- Students write papers and reflections informed by their archival research.
