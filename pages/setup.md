@@ -9,10 +9,9 @@ custom-foot: js/setup-js.html
 
 This page can temporarily configure the metadata used on the site to test our your CollectionBuilder spreadsheet. 
 The configurations are stored in your browser's session storage, so will remain only until you close this window (or click the reset button)!
-
 The currently configured metadata is:
 
-<span id="current-metadata"></span>
+<div id="current-metadata" class="text-center mb-3"></div>
 
 To keep the currently configured metadata, simply navigate to another page!
 To change the metadata you have two options: select a CSV file from your computer *or* paste in the full link for a CSV hosted online (such as a published Google Sheet).
@@ -54,11 +53,10 @@ To change the metadata you have two options: select a CSV file from your compute
 
 ## Metadata Requirements
 
-Set up your metadata following the template.
+Set up your metadata carefully following the [template]({{ '/metadata.html' | relative_url }}).
 Be especially careful with column names in the first row!
-They need to have no spaces and no extra white space at the end of the value.
-
-objectid
+They need to exactly match the template, with no spaces and no extra white space at the end of the value.
+Records without a unique "objectid" will be skipped.
 
 ## How to Publish Your Google Sheet
 

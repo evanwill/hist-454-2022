@@ -6,16 +6,32 @@ permalink: /metadata.html
 
 # Metadata Creation 
 
-How to work in the sheet
-To create your metadata for the project, you will first make a copy of the metadata template "hist454_metadata_template" in Google Drive.
+Metadata and description is essential to archives and digital collections, profoundly impacting user experience, discoverability, and bias. 
+The practice of creating metadata is an act of research and interpretation.
+By creating metadata yourself, this assignment seeks to build a thoughtful understanding of finding aids and digital collections, and become more critical consumers of metadata.
+
+You will be creating metadata for two types of items: 
+
+- the photograph(s) and document(s) you selected and digitized from U of I archival collections -- your "digitized objects".
+- five already digitized items selected from U of I digital collections -- your "curated objects".
+
+When creating metadata in a spreadsheet we tend to use this terminology:
+
+- columns => "fields" (the individual elements used to describe specific qualities of the objects)
+- rows => "records" or "items" (each row represents one object's description)
+- cells => "values" (the individual chunks of metadata)
+
+The metadata template is the set of fields that we will use for all items ensuring consistency across the collection.
+Both digitized and curated objects will be described using the same metadata template.
+
+To create your metadata for the project, you will first make a copy of the metadata template "hist454_metadata_template" in Google Drive:
 
 [HIST 454 Metadata Template](https://docs.google.com/spreadsheets/d/1UG_JhZ1lYLsFeoNpO_D7dztmG8elcZlEaID-mz7QTh8/copy?usp=sharing){:.btn .btn-outline-success target="_blank" rel="noopener"}
 
-Metadata spreadsheet terminology:
+Describe your digitized objects and curated items in your own copy of the template. 
+Once you have items added to your Sheet, you can [test your metadata]({{ '/setup/' | relative_url }}) if desired.
 
-- columns = "fields"
-- rows = "records" or "items"
-- cells = "values"
+When your metadata is finalized, you will copy your rows into our shared central metadata spreadsheet, and everyone's items will popular the digital collection.
 
 -----------
 
@@ -34,19 +50,19 @@ Each of the columns of our project's metadata template spreadsheet are described
 
 - Unique identifier for the record. Each record needs to have a unique one or it won't show up in the collection. It allows us to refer to the item in the collection.
 - Value must be all **lowercase** with no spaces or special characters. Underscores (`_`) and dashes (`-`) are okay; **slashes (`/`) should NOT be used in this field**.
-- For this project, please follow the convention of using `hist454` + your initials + the number of record created by you.
+- For this project, please follow the convention of using `hist454-` + your initials + the number of record created by you.
 - Examples:
-    - `hist454ew01` 
-    - `hist454ew02`
+    - `hist454-ew01` 
+    - `hist454-ew02`
 
 ### filename 
 
 - The filename of your digitized object *or* the full link to your curated object's file download. 
-    - For digitized objects, the value must **exactly** match the filename you gave to your item, including the extension (which should be ".jpg" or ".pdf").
+    - For digitized objects, the value must **exactly** match the filename you gave to your item, including the extension (which should be ".jpg" or ".pdf"). Naming your files following the same convention as the "objectid" makes things easiest!
     - For curated objects from U of I collections, the value will be a full URL to the downloadable file. You can find this in our digital collections by copying the "Download" link from an individual item page.
 - Examples: 
-    - digitized image: `hist454ew01.jpg`
-    - digitized document: `hist454ew02.pdf`
+    - digitized image: `hist454-ew01.jpg`
+    - digitized document: `hist454-ew02.pdf`
     - link to image: `https://digital.lib.uidaho.edu/digital/iiif/bar-stock/1147/full/max/0/default.jpg`
 
 ### title
@@ -105,7 +121,17 @@ Each of the columns of our project's metadata template spreadsheet are described
 ### source
 
 - The related source collection or resource from which the object is derived. 
+    - For your digitized items, this will be the collection designation and name as found in the finding aid. 
+    - For curated items, copy the source from the original item metadata. 
 - Example value: `PG 8, Barnard-Stockbridge Collection, University of Idaho Library Special Collections and Archives`
+
+### source_link 
+
+- A link to more information about the source.
+    - For your digitized items, include the link to the finding aid if possible.
+    - For curated items, include the link to the item page in the collection.
+- Example finding aid link: `http://archiveswest.orbiscascade.org/ark:/80444/xv65328`
+- Example item page link: `https://www.lib.uidaho.edu/digital/barstock/items/barstock133.html`
 
 ### identifier
 
