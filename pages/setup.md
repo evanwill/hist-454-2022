@@ -1,16 +1,17 @@
 ---
 title: Site Configuration
-layout: page
+layout: page-narrow
 permalink: /setup/
 custom-foot: js/setup-js.html
 ---
 
 ## Test Your Metadata
 
-This page can temporarily configure the metadata used on the site to test our your CollectionBuilder spreadsheet. 
-The configurations are stored in your browser's session storage, so will remain only until you close this window (or click the reset button)!
-The currently configured metadata is:
+This page can temporarily configure the metadata used on the site to test your CollectionBuilder spreadsheet. 
+The configurations are stored in your browser's session storage, so will remain only until you close this window!
+No information is sent to the server, the metadata is only on your computer.
 
+The currently configured metadata is:
 <div id="current-metadata" class="text-center mb-3"></div>
 
 To keep the currently configured metadata, simply navigate to another page!

@@ -1,29 +1,15 @@
 ---
-title: Metadata 
+title: Metadata Guidelines
 layout: page-narrow
 permalink: /metadata.html
 ---
 
-# Metadata Creation 
-
-Metadata and description is essential to archives and digital collections, profoundly impacting user experience, discoverability, and bias. 
-The practice of creating metadata is an act of research and interpretation.
-This assignment seeks to build a thoughtful and critical understanding of finding aids and digital collections, by actually creating metadata yourself.
-
-The practice of describing objects is an entire discipline of academic study--so there is a lot to think critically about--but an important take away is simply that metadata is made by humans like you!
-As metadata creators, we seek to do our best to represent the important information about the archival materials in the context of the collection--creating metadata that will help future users (and yourselves) find, contextualize, and understand the objects in the collection.
+# Metadata Guidelines 
 
 You will be creating metadata for two types of items: 
 
 - the photograph(s) and document(s) you digitized from U of I archival collections -- your "digitized objects".
 - five already digitized items selected from U of I digital collections -- your "curated objects".
-
-## Metadata Template 
-
-The metadata template is the set of descriptive fields that we will use for all items to ensure consistency across the collection.
-Both digitized and curated objects will be described using the same metadata template.
-The fields are based on [Dublin Core](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) and other standards and conventions used in digital libraries. 
-This helps our metadata be compatible with other systems and helps other people understand our descriptive practice.
 
 We will be creating our metadata in a spreadsheet on Google Sheets.
 When creating metadata in a spreadsheet we tend to use this terminology:
