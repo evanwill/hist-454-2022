@@ -33,18 +33,20 @@ if (sessionStorage.getItem("cb_items_store")) {
 }
 
 {% if site.development-refresh == true %}
-var refreshButton = document.createElement("div");
-refreshButton.classList.add("dev-buttons");
-refreshButton.innerHTML = `<div class="btn-group-vertical">
-  <button class="btn btn-sm btn-secondary" onclick="resetStore()" id="refreshButton">Reset Metadata</button>
-  <a class="btn btn-sm btn-info" href="{{ '/setup/' | relative_url }}">Configure Metadata</a>
-  </div>`;
-document.body.appendChild(refreshButton);
-function resetStore () {
-  // remove data
-  sessionStorage.removeItem("cb_items_store");
-  sessionStorage.removeItem("cb_metadata_set");
-  // reload
-  location.reload();
+if (sessionStorage.getItem("cb_metadata_set")) { 
+  var refreshButton = document.createElement("div");
+  refreshButton.classList.add("dev-buttons");
+  refreshButton.innerHTML = `<div class="btn-group-vertical">
+    <button class="btn btn-sm btn-secondary" onclick="resetStore()" id="refreshButton">Reset Metadata</button>
+    <a class="btn btn-sm btn-info" href="{{ '/setup/' | relative_url }}">Configure Metadata</a>
+    </div>`;
+  document.body.appendChild(refreshButton);
+  function resetStore () {
+    // remove data
+    sessionStorage.removeItem("cb_items_store");
+    sessionStorage.removeItem("cb_metadata_set");
+    // reload
+    location.reload();
+  }
 }
 {%- endif -%}
