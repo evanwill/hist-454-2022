@@ -47,3 +47,4 @@ Once you have completed your batch of scanning and created PDFs (as necessary), 
 Be sure to copy the file names into your metadata template "filename" field!
 
 CDIL staff will transfer the files to project repository.
+You will have access to the files in the shared Google Drive and final digital collection website.

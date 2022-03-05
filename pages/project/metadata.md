@@ -8,24 +8,19 @@ permalink: /metadata.html
 
 You will be creating metadata for two types of items: 
 
-- the photograph(s) and document(s) you digitized from U of I archival collections -- your "digitized objects".
-- five already digitized items selected from U of I digital collections -- your "curated objects".
+- the photograph(s) and document(s) you digitized from U of I archival collections --> your "digitized objects".
+- five already digitized items selected from U of I digital collections --> your "curated objects".
 
-We will be creating our metadata in a spreadsheet on Google Sheets.
-When creating metadata in a spreadsheet we tend to use this terminology:
-
-- columns => "fields" (the individual elements used to describe specific qualities of the objects)
-- rows => "records" or "items" (each row represents one object's description)
-- cells => "values" (the individual chunks of metadata)
-
+Both digitized and curated objects will be described using the same metadata template.
 To create your metadata for the project, you will first make a copy of the metadata template "hist454_metadata_template" in Google Drive:
 
 [HIST 454 Metadata Template](https://docs.google.com/spreadsheets/d/1UG_JhZ1lYLsFeoNpO_D7dztmG8elcZlEaID-mz7QTh8/copy?usp=sharing){:.btn .btn-outline-success target="_blank" rel="noopener"}
+{:.text-center}
 
-Describe your digitized objects and curated items in your copy of the template, following the guidelines below. 
+Describe your digitized objects and curated items in **your copy** of the template, following the guidelines below. 
 Once you have items added to your Sheet, you can [test your metadata]({{ '/setup/' | relative_url }}) if desired.
 
-Once your metadata is finalized, you will copy your rows into our shared central metadata spreadsheet, and everyone's items will populate the final digital collection.
+Once your metadata is finalized, you will copy your rows into our shared central metadata spreadsheet, and everyone's items will populate the final digital exhibit.
 
 -----------
 
@@ -33,6 +28,8 @@ Once your metadata is finalized, you will copy your rows into our shared central
 
 Each of the columns of our project's metadata template spreadsheet are described below
 (i.e. **this is how to fill in your metadata spreadsheet!**).
+Please note *required* means not having a value will result in your metadata not functioning in the digital collection.
+All other fields are optional, but suggested!
 
 ### record_contributor
 
@@ -124,15 +121,9 @@ Each of the columns of our project's metadata template spreadsheet are described
 ### source
 
 - The related source collection or resource from which the object is derived. 
-    - For your digitized items, this will be the collection designation and name as found in the finding aid. 
-    - For curated items, copy the source from the original item metadata. 
+    - For your digitized items, this will be the collection designation and name as found in the finding aid. If possible, it is helpful to include a link to the finding aid.
+    - For curated items, copy the source from the original item metadata, and/or include a link to the item page in the original digital collection. 
 - Example value: `PG 8, Barnard-Stockbridge Collection, University of Idaho Library Special Collections and Archives`
-
-### source_link 
-
-- A link to more information about the source.
-    - For your digitized items, include the link to the collection finding aid if possible.
-    - For curated items, include the link to the item page in the collection.
 - Example finding aid link: `http://archiveswest.orbiscascade.org/ark:/80444/xv65328`
 - Example item page link: `https://www.lib.uidaho.edu/digital/barstock/items/barstock133.html`
 
