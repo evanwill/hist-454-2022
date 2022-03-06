@@ -64,7 +64,19 @@ As metadata creators, we seek to do our best to represent the important informat
 
 This project will use a standard metadata template providing the set of descriptive fields for all items to ensure consistency across the collection.
 The fields are based on [Dublin Core](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) and other standards and conventions used in digital libraries. 
-Following standards helps our metadata be compatible with other systems and helps other people understand our descriptive practice.
+Following standards helps our metadata be compatible with other systems, helps other people understand our descriptive practice, and helps users find what they are looking for.
+
+For example, each column below contains exactly the same info:
+
+| 2015-10-14 | $1,000 | ID |
+| 10/14/2015 | 1000 | I.D. |
+| 10/14/15 | 1,000 | US-ID |
+| Oct 14, 2015 | 1000 dollars | idaho |
+| Wed, Oct 14th | US$1000 | Idaho, |
+| 42291 | $1k | Ihaho |
+{:.table .table-bordered}
+
+A human looking at these values can read them successfully, however in a digital system the inconsistent formatting of the data will make it harder for users to discover relevant and related materials.
 
 Explore the demo collection and metadata to understand how the field values are used to generate browsing features in the exhibit site.
 Consider the implications of the choices of which fields to include in the template, and which words you use to describe your objects.
