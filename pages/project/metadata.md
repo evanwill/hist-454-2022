@@ -31,6 +31,10 @@ Each of the columns of our project's metadata template spreadsheet are described
 Please note *required* means not having a value will result in your metadata not functioning in the digital collection.
 All other fields are optional, but suggested!
 
+Use the evidence available to you to best fill out the metadata values.
+The archival finding aid, notes in the folders, notes and contents of the items may help for digitized items.
+For curated items, use the existing metadata as a guide and starting point.
+
 ### record_contributor
 
 - This is your name! Get credit for your work and show that you did the assignment.
@@ -120,7 +124,7 @@ All other fields are optional, but suggested!
 
 ### source
 
-- The related source collection or resource from which the object is derived. 
+- The related source collection or resource from which the object is derived. Generally follows the pattern "collection name, organization name, location, web link".
     - For your digitized items, this will be the collection designation and name as found in the finding aid. If possible, it is helpful to include a link to the finding aid.
     - For curated items, copy the source from the original item metadata, and/or include a link to the item page in the original digital collection. 
 - Example value: `PG 8, Barnard-Stockbridge Collection, University of Idaho Library Special Collections and Archives`
