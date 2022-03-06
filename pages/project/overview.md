@@ -36,6 +36,8 @@ Digitization in archives has transformed historical research in many ways, so it
 
 This project asks you to get hands on with that process, bringing physical materials from the archive into the digital world.
 
+See [Digitization Guidelines]({{ '/digitization.html' | relative_url }}) for details.
+
 ## Curation
 
 No collection can contain and represent everything from the relevant historical record. 
@@ -47,6 +49,8 @@ Your first act of curation is selecting your objects for digitization from the a
 We would like you to go further, enhancing the final *Mining the Archives* collection by selecting five items from U of I digital collections relevant to your research questions.
 
 While digging into the existing digital archives, consider how this process is different than your experience working with the physical archives in Special Collections.
+
+See [Curation Guidelines]({{ '/curation.html' | relative_url }}) for details.
 
 ## Metadata 
 
@@ -80,6 +84,8 @@ A human looking at these values can read them successfully, however in a digital
 
 Explore the demo collection and metadata to understand how the field values are used to generate browsing features in the exhibit site.
 Consider the implications of the choices of which fields to include in the template, and which words you use to describe your objects.
+
+See [Metadata Guidelines]({{ '/metadata.html' | relative_url }}) for details.
 
 ## Digital Exhibit
 

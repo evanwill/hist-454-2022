@@ -22,6 +22,8 @@ Once you have items added to your Sheet, you can [test your metadata]({{ '/setup
 
 Once your metadata is finalized, you will copy your rows into our shared central metadata spreadsheet, and everyone's items will populate the final digital exhibit.
 
+For tips on using Sheets for metadata, see [Working with Spreadsheets]({{ '/spreadsheets.html' | relative_url }}).
+
 -----------
 
 ## Metadata Fields 

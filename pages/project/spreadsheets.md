@@ -1,5 +1,5 @@
 ---
-title: Spreadsheet Tips
+title: Working with Spreadsheets
 layout: page-narrow
 permalink: /spreadsheets.html
 ---
