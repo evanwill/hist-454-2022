@@ -4,9 +4,9 @@ layout: page-narrow
 permalink: /overview.html
 ---
 
-# Mining the Archives Project Overview
-
 {% include feature/jumbotron.html objectid="https://digital.lib.uidaho.edu/digital/iiif/watkins/56/full/pct:60/0/default.jpg" %}
+
+# Mining the Archives Project Overview
 
 History 454's *Mining the Archives* project involves several components:
 
