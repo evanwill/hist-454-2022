@@ -16,10 +16,14 @@ function cb_items_setup(metadata_file) {
     download: true,
     header: true,
     complete: (results) => { 
+      sessionStorage.removeItem("cb_items_store");
+      // filter for objectid value
       cb_items = results.data.filter(item => item["objectid"]);
+      // add to session storage
       sessionStorage.setItem("cb_items_store", JSON.stringify(cb_items));
+      console.log(metadata_file);
       // redirect to home
-      window.location.href = "{{ '/' | absolute_url }}";
+      window.location.href = "{{ '/' | relative_url }}";
     },
     error: (err) => {
         alert("There is an error parsing your CSV! Please check the configured URL or file.");
