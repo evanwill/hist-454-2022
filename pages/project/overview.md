@@ -4,9 +4,9 @@ layout: page-narrow
 permalink: /overview.html
 ---
 
-# Mining the Archives Project Overview
-
 {% include feature/jumbotron.html objectid="https://digital.lib.uidaho.edu/digital/iiif/watkins/56/full/pct:60/0/default.jpg" %}
+
+# Mining the Archives Project Overview
 
 History 454's *Mining the Archives* project involves several components:
 
@@ -24,7 +24,7 @@ The sections below provide an overview of the project digital collection project
 
 ## Digitization 
 
-> digitize, v. to transform analog information into digital form ([SAA Dictionary](https://dictionary.archivists.org/entry/digitize.html))
+> *digitize*, v. to transform analog information into digital form ([SAA Dictionary](https://dictionary.archivists.org/entry/digitize.html))
 {:.blockquote .border-left .pl-3 .lead .my-3}
 
 Digitization is the process of creating a digital representation of physical materials--for example, scanning a photograph to create a digital JPEG image or scanning using OCR on a print document to create a PDF.
@@ -52,11 +52,11 @@ While digging into the existing digital archives, consider how this process is d
 
 See [Curation Guidelines]({{ '/curation.html' | relative_url }}) for details.
 
-## Metadata 
+## Description & Metadata 
 
-> description, n., a set of data crafted to identify and represent an archival resource or component thereof ([SAA Dictionary](https://dictionary.archivists.org/entry/description.html))
+> *description*, n., a set of data crafted to identify and represent an archival resource or component thereof ([SAA Dictionary](https://dictionary.archivists.org/entry/description.html))
 >
-> descriptive metadata, n., Information that refers to the intellectual content of material and aids discovery of such materials. Notes: Descriptive metadata allows users to locate, distinguish, and select materials on the basis of the material's subjects or 'aboutness.' ([SAA Dictionary](https://dictionary.archivists.org/entry/descriptive-metadata.html))
+> *descriptive metadata*, n., Information that refers to the intellectual content of material and aids discovery of such materials. Notes: Descriptive metadata allows users to locate, distinguish, and select materials on the basis of the material's subjects or 'aboutness.' ([SAA Dictionary](https://dictionary.archivists.org/entry/descriptive-metadata.html))
 {:.blockquote .border-left .pl-3 .lead .my-3}
 
 Description and metadata is essential to archives and digital collections, profoundly impacting user experience, discoverability, and bias. 
@@ -84,12 +84,13 @@ A human looking at these values can read them successfully, however in a digital
 
 Explore the demo collection and metadata to understand how the field values are used to generate browsing features in the exhibit site.
 Consider the implications of the choices of which fields to include in the template, and which words you use to describe your objects.
+Take a close look at the metadata guidelines to review important concepts embedded in the template, such as "subject" about-ness, "identifiers" referring back to physical collections, and "rightsstatement" containing intellectual property information.
 
 See [Metadata Guidelines]({{ '/metadata.html' | relative_url }}) for details.
 
 ## Digital Exhibit
 
-> online exhibition, n. a curated display of archival resources accessible via the internet. Notes: Not simply a digital collection, an online exhibition is a collection of interrelated archival resources focused around a theme. ([SAA Dictionary](https://dictionary.archivists.org/entry/online-exhibition.html))
+> *online exhibition*, n. a curated display of archival resources accessible via the internet. Notes: Not simply a digital collection, an online exhibition is a collection of interrelated archival resources focused around a theme. ([SAA Dictionary](https://dictionary.archivists.org/entry/online-exhibition.html))
 {:.blockquote .border-left .pl-3 .lead .my-3}
 
 Everyone's work on the project will contribute to the *Mining the Archives* digital exhibit.
