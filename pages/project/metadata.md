@@ -165,7 +165,8 @@ For curated items, use the existing metadata as a guide and starting point.
 
 ### rightsstatement
 
-- This field is a standardized rights statement, designated in the form of a URI. It should be presented as a [creativecommons.org](https://creativecommons.org/){:target="_blank" rel="noopener"} URI or a [rightsstatements.org](https://rightsstatements.org/en/){:target="_blank" rel="noopener"} URI.
+- This field is a standardized rights statement, designated in the form of a URI. It should be presented as a [creativecommons.org](https://creativecommons.org/){:target="_blank" rel="noopener"} URI or a [rightsstatements.org](https://rightsstatements.org/en/){:target="_blank" rel="noopener"} URI. 
+- This helps users understand how they can use the digital objects, and libraries / project creators do their due diligence to represent intellectual property.
 - For this project, we will be choosing from [rightsstatements.org](https://rightsstatements.org/en/){:target="_blank" rel="noopener"}.
 - Choose from:
     - Items created before 1927 are public domain in USA. Use: `http://rightsstatements.org/vocab/NoC-US/1.0/`

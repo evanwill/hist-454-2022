@@ -84,6 +84,7 @@ A human looking at these values can read them successfully, however in a digital
 
 Explore the demo collection and metadata to understand how the field values are used to generate browsing features in the exhibit site.
 Consider the implications of the choices of which fields to include in the template, and which words you use to describe your objects.
+Take a close look at the metadata guidelines to review important concepts embedded in the template, such as "subject" about-ness, "identifiers" referring back to physical collections, and "rightsstatement" containing intellectual property information.
 
 See [Metadata Guidelines]({{ '/metadata.html' | relative_url }}) for details.
 
