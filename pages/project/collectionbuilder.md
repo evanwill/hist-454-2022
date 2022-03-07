@@ -25,7 +25,7 @@ We [do that sort of stuff](https://cdil.lib.uidaho.edu/about/)!
 We use CollectionBuilder to create our [digital collections](https://www.lib.uidaho.edu/digital/), teach in classes, and [collaborate with researchers](https://cdil.lib.uidaho.edu/projects/).
 
 The Mining the Archives project site is created using [CollectionBuilder-Sheets](https://github.com/CollectionBuilder/collectionbuilder-sheets), a new template we are developing.
-In this case librarians set up the exhibit template and website, framing the classroom learning around [digitization]({{ '/digitization.html' | relative_url }}), [curation]]({{ '/curation.html' | relative_url }}), and [metadata]({{ '/metadata.html' | relative_url }}).
+In this case librarians set up the exhibit template and website, framing the classroom learning around [digitization]({{ '/digitization.html' | relative_url }}), [curation]({{ '/curation.html' | relative_url }}), and [metadata]({{ '/metadata.html' | relative_url }}).
 
 ## Example CDIL Projects
 
