@@ -101,7 +101,7 @@ For curated items, use the existing metadata as a guide and starting point.
 - topic(s) related to the item.
 - Separate multiple subjects using a semicolon `;`
 - For this project, the subjects should relate to relevant concepts and topics highlights by the class and research, to help contextualize the collection contents.
-- Think of subjects as how you would search for the item--> What subjects are described/depicted? These allow researchers and people interested in looking for one thing in particular to narrow the collections down to their interests. We use the [Getty Art and Architecture Thesaurus](http://www.getty.edu/research/tools/vocabularies/aat/) for our subjects. Using a control vocabulary helps create consistency in the application of subject terms, connecting the with other objects and collections.
+- Think of subjects as how you would search for the item--> What subjects are described/depicted? These allow researchers and people interested in looking for one thing in particular to narrow the collections down to their interests. We use the [Getty Art and Architecture Thesaurus](http://www.getty.edu/research/tools/vocabularies/aat/) for our subjects. Using a controlled vocabulary helps create consistency in the application of subject terms, connecting the with other objects and collections.
 - Example value: `Dogs; Cats; Zebras`
 
 ### location
