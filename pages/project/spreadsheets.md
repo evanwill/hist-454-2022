@@ -16,9 +16,9 @@ Most spreadsheet applications follow the same basic conventions of use--this pag
 
 When creating metadata in a spreadsheet we tend to use this terminology for the parts of the table:
 
-- columns => "fields" (the metadata template elements used to describe specific qualities of all objects, essentially the categories of descriptions)
-- rows => "records" or "items" (each row represents one object's description)
-- cells => "values" (the individual chunks of metadata)
+- *columns* => "fields" (the metadata template elements used to describe specific qualities of all objects, essentially the categories of descriptions)
+- *rows* => "records" or "items" (each row represents one object's description)
+- *cells* => "values" (the individual chunks of metadata)
 
 ## Basics
 

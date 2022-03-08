@@ -12,7 +12,7 @@ The [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/) (CD?
 
 But [what is **Digital Humanities**](https://whatisdigitalhumanities.com/)??
 
-*We're not always sure*, but something like DH is using new digital methods and tools to pursue humanities research questions.
+*We're not always sure*, but something like: DH is using new digital methods and tools to pursue humanities research questions.
 
 **Digital Scholarship** is another commonly used ambiguous term--for us it usually means using the unique possibilities of digital platforms to enable new forms of communication and publication.
 This is often extended further with the concepts of public humanities or public history, where we rethink audiences for our research and expand access to information.
