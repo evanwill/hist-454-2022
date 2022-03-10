@@ -20,7 +20,7 @@ To create your metadata for the project, you will first make a copy of the metad
 Describe your digitized objects and curated items in **your copy** of the template, following the guidelines below. 
 Once you have items added to your Sheet, you can [test your metadata]({{ '/setup/' | relative_url }}) if desired.
 
-Once your metadata is finalized, you will copy your rows into our shared central metadata spreadsheet, and everyone's items will populate the final digital exhibit.
+Once your metadata is finalized, you will copy your rows into our shared central metadata spreadsheet, and everyone's items will populate the final digital exhibit--see [Submit Your Metadata](#submit-your-metadata) below.
 
 For tips on using Sheets for metadata, see [Working with Spreadsheets]({{ '/spreadsheets.html' | relative_url }}).
 
@@ -171,3 +171,24 @@ For curated items, use the existing metadata as a guide and starting point.
 - Choose from:
     - Items created before 1927 are public domain in USA. Use: `http://rightsstatements.org/vocab/NoC-US/1.0/`
     - For other items, we will use "Educational Use Permitted": `http://rightsstatements.org/vocab/InC-EDU/1.0/`
+
+-------------
+
+## Submit Your Metadata
+
+Once your metadata is finalized in your copy of the template, you will copy your rows into our shared central metadata spreadsheet.
+The link to the "hist454_metadata_final" Sheet will be sent out via email.
+
+1. Open both your copy of the template and the "hist454_metadata_final" in Sheets.
+2. On your copy of the template, click on the number to the left of your first item row (should be row 2). This will select the entire row, highlighting it in blue.
+3. Hold "Shift" key and click on the number to the left of your last item row (e.g. if you did 2 digitized items and 5 curated items, this would be row 8). This will select all your rows, highlighting them in blue.
+    ![spreadsheet with rows selected]({{ '/assets/img/select-rows.png' | relative_url }}){:.img-fluid .border .rounded .my-2}
+4. Copy the rows by pressing "Ctrl + C" on your keyboard.
+5. Switch to the "hist454_metadata_final" Sheet.
+6. Scroll down to find an empty row at the bottom of the Sheet and click in the first cell of the row. Ensure the row is empty so that you do not over write someone's work! Once you click in the cell it should be highlighted with a blue border as the active cell.
+    ![spreadsheet with empty cell on empty row selected]({{ '/assets/img/paste-rows1.png' | relative_url }}){:.img-fluid .border .rounded .my-2}
+7. Press "Ctrl + V" on your keyboard to paste in the rows you copied from your sheet. Your rows should appear. (Remember, if you make a mistake, "Ctrl + Z" will undo your last action!)
+8. Below your newly pasted rows to the bottom right, click on the clipboard icon, and select "Paste values only". This will avoid copying formatting quirks to the final Sheet.
+    ![spreadsheet pasted cells, clicking clipboard icon]({{ '/assets/img/paste-rows2.png' | relative_url }}){:.img-fluid .border .rounded .my-2}
+
+Once all the metadata and digitized objects are gathered, the *Mining the Archives* collection will be updated to use this spreadsheet!
