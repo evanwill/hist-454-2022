@@ -33,8 +33,8 @@ Since one of the key strengths of our Special Collections is the history of mini
 History 454's *Mining the Archives* project involves several components:
 
 - **Archival Research:** Working with [U of I Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/), students explore and do hands on research with primary source materials related to mining.
-- **Digitization:** From their archival research, students select at least one photograph and one text source to digitize. Working with the [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/) (CDIL), they scan their selected items and prepare digital files.
-- **Curation:** Students explore [U of I Library Digital Collections](https://www.lib.uidaho.edu/digital/collections.html) and select five additional items from existing digital collections, creating metadata for their curated records.
+- **Digitization:** From their archival research, students select at least one photograph and one text source to digitize. Working with the [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/) (CDIL), they scan their selected items and prepare digital files. Browse [digitized objects]({{ '/browse.html#Digitization Project' | relative_url }}).
+- **Curation:** Students explore [U of I Library Digital Collections](https://www.lib.uidaho.edu/digital/collections.html) and select five additional items from existing digital collections, creating metadata for their curated records. Browse [curated objects]({{ '/browse.html#Curation Project' | relative_url }}).
 - **Description and Metadata:** Students create metadata following a collection template to describe their digitized and curated items.
 - **Exhibit:** Once all objects and metadata are submitted, CDIL generates the final digital collection (this site!). 
 - **Research and Reflection:** Students write papers and reflections informed by their archival research.
